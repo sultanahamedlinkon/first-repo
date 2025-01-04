@@ -1,14 +1,42 @@
-div{
- background-color: rgb(136, 133, 129);
+*{
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+ list-style: none;
+ box-sizing: border-box;
+}
+body{
+ font-family: monospace;
+}
+nav{
+ background: #0082e6;
+ height: 80px;
+ width:100%;
+}
+label.logo{
  color: white;
- padding: 10px;
+ font-size: 35px;
+ line-height: 80px;
+ padding: 0 100px;
+ font-weight: bold;
+}
+nav ul{
+ float: right;
+ margin-right: 25px;
+}
+nav ul li{
+ display: inline-block;
+ line-height: 80px;
+ margin: 0 5px;
+}
+nav ul li a{
+ color:white;
  font-size: 20px;
  font-weight: bold;
- margin-bottom: 20px;
+ padding: 7px 13px;
+ border-radius: 3px;
+ text-transform: uppercase;
 }
-div h3{
- color: crimson;
- text-align: center;
- font-size: 40px;
- font-weight: bold;
+a.active,a:hover{
+background: #1b9bff;
 }
