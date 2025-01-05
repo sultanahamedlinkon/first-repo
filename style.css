@@ -87,16 +87,4 @@ div ul {
   list-style-position: inside;
   font-weight: bold;
 }
-#parent{
-  background-color: rgb(193, 235, 9);
-  height:500px;
-  width: auto;
-}
-.image{
-  height: 300px;
-  width: 300px;
-}
-.photo{
-  height: 200px;
-  width: 200px;
-}
+
