@@ -1,9 +1,7 @@
 *{
  margin: 0;
  padding: 0;
- text-decoration: none;
- list-style: none;
- box-sizing: border-box;
+ 
 }
 body{
  font-family: monospace;
@@ -23,6 +21,7 @@ label.logo{
 nav ul{
  float: right;
  margin-right: 25px;
+ text-decoration: none;
 }
 nav ul li{
  display: inline-block;
@@ -39,4 +38,65 @@ nav ul li a{
 }
 a.active,a:hover{
 background: #1b9bff;
+}
+body{
+ height: auto;
+ width: 100%;
+}
+.first-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size:cover;
+  background-image: url(./image/roll.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 10rem 0;
+  text-align: center;
+  width: 100%;
+}
+h1{
+  color: hsl(98, 100%, 51%);
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 1px;
+}
+.first-section ol{
+color: #1b9bff;
+font-size: 30px;
+font-weight: bold;
+}
+div{
+  height: 500px;
+  width: 450px;
+border: 2px solid white;
+border-radius: 10px;
+box-shadow:1px 1px 20px white;
+}
+div ul li{
+  text-align: left;
+  display: flex;
+  padding-left: 20px ;
+  padding-top: 20px;
+  
+}
+div ul {
+  color:hsl(98, 100%, 51%) ;
+  font-size: 35px;
+  list-style-type: circle;
+  list-style-position: inside;
+  font-weight: bold;
+}
+#parent{
+  background-color: rgb(193, 235, 9);
+  height:500px;
+  width: auto;
+}
+.image{
+  height: 300px;
+  width: 300px;
+}
+.photo{
+  height: 200px;
+  width: 200px;
 }
